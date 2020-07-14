@@ -89,10 +89,11 @@ body {
     line-height: 30px;
 }
 .contact{
-    height: 100vh;
-    width: -200px;
+    position: relative;
+    height: 98vh;
+    width: 100%;
     background-image: url(../img/pix4.png);  
-    background-color: rgba(51, 51, 51, 0.801);
+    background-color: #63444C;
     background-size: cover;
     background-position: top;
     background-blend-mode: darken; 
@@ -101,7 +102,7 @@ body {
     font-size: 36px;
     line-height: 54px;
     font-weight: 600;
-    padding: 150px 10px 0px 50px;
+    padding: 84px 10px 0px 50px;
     /* padding-left: 10px;
     padding-bottom: 10px;
     padding-top: 70px;
@@ -122,30 +123,102 @@ body {
     padding-left: 70px;
 }
 .info {
-    padding-top: 200px;
-    padding-left: 40px;
+    margin-left: 0px;
+    margin-right: 5px;
+    margin-bottom: 6px;
+    margin-top: 90px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+    /* margin-top: 3px;
+    padding-top: 0;
+    padding-left: 5px; */
 }
 .main-small {
     color: #B6948F;
 }
 .offers {
-    padding-top: 70px;
+    padding-top: 10px;
     text-align: center;
     color: #000;
 }
+/* .container-fluid {
+    padding-right: 15px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: 179px;
+} */
+/* .move {
+    padding-left: 20px;
+    margin-left: 50px;
+} */
+/* .move1{
+    padding-top: 30px;
+} */
+/* .move2 {
+    padding-top: 30px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 20px;
+    margin-right: 0px;
 
-
-
-
-
-
-
-
-
-
-
-
-
+} */
+.card-img-top{
+    width: 30%;
+    justify-content: center;
+}
+.testimony {
+    position: relative;
+    width: 100%;
+    background: rgba(231, 211, 106, 0.46);
+    background-size: cover;
+    background-position: top;
+    color: #000;
+}
+.main-word {
+    padding-top: 60px;
+}
+.dept {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    color: #000;
+    text-align: center;
+}
+.dept-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+}
+.card-img {
+    position: relative;
+    width: 80%;
+    height: auto;
+    justify-items: center;
+    left: 20px;
+}
+.depts {
+    width: auto;
+    border: 1px solid rgba(9,0,0,1.125);
+    border-radius: .25rem;
+}
+.title,
+.mini-title,
+.prize {
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding-top: 4px;
+}
+.foot{
+    height: 100vw;
+    width: 100%;
+    background-image: url(../img/Mask\ Group.png);
+    background-size: cover;
+    -ms-transform: rotate3d(360deg);
+    transform: rotate(360deg);
+}
 
 
 
