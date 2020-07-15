@@ -12,6 +12,7 @@ body {
 }
 #header {
     height: 100vh;
+    width: 100%;
     background-image: url(../img/pix1.png);  
     background-size: cover;
     background-position: top;
@@ -91,16 +92,16 @@ body {
     font-size: 15px;
     line-height: 30px;
 }
-.contact{
+#contact {
     position: relative;
-    height: 98vh;
-    width: 100%;
-    background-image: url(../img/pix4.png);  
-    background-color: #63444C;
-    background-size: cover;
-    background-position: top;
+    height: 100vh;
+    margin: 3px;
+    background-image: url(../img/pix4.png);
+    background-position: cover;
+    box-sizing: border-box;
+    background-color: #63444c;
     background-blend-mode: darken; 
-    display: inline-block;
+
 }
 .main-one {
     font-size: 36px;
@@ -167,6 +168,24 @@ body {
     margin-right: 0px;
 
 } */
+#disimg {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 20px 0px; 
+}
+.box {
+    position: relative;
+    border: 1px solid rgb(65,105,225);
+    border-radius: 10px;
+    color: #333;
+    text-align: center;
+    margin: 7px;
+    padding: 4px;
+}
+.box {
+    margin-top: auto;
+}
 .card-img-top{
     width: 30%;
     justify-content: center;
