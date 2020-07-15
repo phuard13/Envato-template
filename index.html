@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/icon-font.css">
     <link rel="stylesheet" href="css/style.css">
@@ -13,7 +14,7 @@
 </head>
 <body> 
     <!-- image in the header -->
-   <header class="header">
+   <header id="header">
        <!-- navbar properties -->
     <nav class="navbar navbar-expand-sm">
         <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
@@ -36,7 +37,7 @@
             <a class="nav-link" href="#">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a cl ass="nav-link" href="#">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Order</a>
@@ -300,23 +301,24 @@
  </div>
 </section>
   <!-- footer -->
- <footer id="footer">
-   <div class="container">
-       <div class="col-lg-6 col-md-4 foot">
-          <h2 class="news">Join Our Newsletter</h2>
-          <p class="updates">We'll make sure to send you sweet updates and specials</p>
-          <input type="text" class="form-control" placeholder="Email" class="fab fa-instagram-square">
-     </div>
-     
-   </div>
-   <div class="col-lg-6 col-md-4 icons">
+ <div class="footer-main">
+  <div class="news">
+    <h2>Join Our Newsletter</h2>
+    <p>We'll make sure to send you sweet updates and specials</p>
+    <div class="inputwithicon">
+    <input type="text" class="form" placeholder="Email">
+    <!-- <i class="fa-paper-plane-o" aria-hidden="true"></i> -->
+</div>
+</div>
+  <div class="social-icons">
     <ul>
-      <li><i class="fab fa-facebook"></i></li>
-      <li><i class="fab fa-instagram-square"></i></li>
-      <li><i class="fab fa-twitter-square"></i></li>
+      <li><a href=""><i class="fa fa-facebook"></i></a></li>
+      <li><a href=""><i class="fa fa-twitter"></i></a></li>
+      <li><a href=""><i class="fa fa-instagram"></i></a></li>
     </ul>
-   </div>
-  </footer> 
+  </div>
+ </div>
+ <!-- footer ends -->
  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>

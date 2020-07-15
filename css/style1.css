@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-menu {
+    margin: 0 auto;
+    width: 1170px;
+}
+.main-menu ul {
+    margin: 0;
+    position: 0;
+    list-style: none;
+    text-align: right;
+}
+.main-menu ul li {
+    float: none;
+    display: inline-block;   
+}
+.main-menu ul li:nth-child(1){
+    float: left;
+}
+.main-menu ul li:nth-child(2){
+    float: left;
+}
+.main-menu ul li:nth-child(3){
+    float: left;
+}
+.main-menu ul li  {
+    font-size: 20px;
+    text-decoration:none ;
+    color:  #63444C ;
+    display: block;
+    padding: 1px 6px;
+}

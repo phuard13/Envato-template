@@ -10,15 +10,18 @@ body {
     line-height: 1.7em;
     color:#fff;
 }
-.header {
+#header {
     height: 100vh;
     background-image: url(../img/pix1.png);  
     background-size: cover;
     background-position: top;
 }
+.navbar-brand ul li:nth-child(1){
+    float: left;
+}
 .nav-link {
-    color: red;
-    
+    color: #000;
+    justify-content: space-between;
 }
  .navbar-brand {
     width: 98vw;
@@ -36,7 +39,7 @@ body {
 .navbar{
     min-height: 150px;
 }
-.navbar-toggler {
+/* .navbar-toggler {
     background-color:#1d2124 ;
 } 
 .navbar-nav li:nth-child(1) {
@@ -44,7 +47,7 @@ body {
 }
 .navbar-nav li:nth-child(2) {
   float: left;
-}
+} */
 .text-box {
     position: absolute;
     top: 70%;
@@ -97,6 +100,7 @@ body {
     background-size: cover;
     background-position: top;
     background-blend-mode: darken; 
+    display: inline-block;
 }
 .main-one {
     font-size: 36px;
@@ -211,23 +215,56 @@ body {
     margin: 0;
     padding-top: 4px;
 }
-  #footer{
-     color:#fff;
-    height: 300px;
-    margin-top: 100px;
-    background-image: url(../img/footer.png);
-    background-size: cover;
-    transform: skew(0deg, 0deg) translateY(-79px);
-} 
-.foot {
-    text-align: center;
-    padding-top: 100px;
-    left: 200px;
-}
-/* .icons{
-    display: inline-block;
-    background-color:;
-} */
+ .footer-main {
+     width: 100%;
+     height: auto;
+     margin: auto;
+      background-image: url(../img/Mask\ Group1.png); 
+      padding: 20px 0px;
+ }
+ .social-icons {
+       width: 51%;
+       height: auto;
+       margin: auto;
+ }
+ .social-icons ul {
+     margin: 10px;
+     padding: 10px;
+     text-align: center;
+ }
+ .social-icons ul li {
+     display: inline-block;
+     width: 40px;
+     height: 36px;
+     margin: 0px 10px;
+     border-radius: 100%;
+     background-color: #fff;
+ }
+ .social-icons ul li a{
+     color: #E7D36A;
+     font-size: 30px;
+ }
+ .social-icons ul li a i {
+     line-height: 41px;
+ }
+ /* .inputwithicon{
+     padding-left: 40px;
+ }
+ .inputwithicon {
+     position: fixed;
+ }
+ .inputwithicon i {
+    position: absolute;
+    left: 0;
+    top:8px;
+    padding: 9px 8px;
+ } */
+ .news {
+     text-align: center;
+ }
+ .form {
+     width: 50%;
+ }
 
 
 
@@ -236,11 +273,7 @@ body {
 
 
 
-
-
-
-
-
+ 
 
 
 
