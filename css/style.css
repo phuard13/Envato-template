@@ -17,12 +17,12 @@ body {
     background-size: cover;
     background-position: top;
 }
-.navbar-brand ul li:nth-child(1){
-    float: left;
-}
 .nav-link {
     color: #000;
-    justify-content: space-between;
+    font-size: 20px;
+    display: block;
+    padding: 1px 10px;
+    text-decoration: none;
 }
  .navbar-brand {
     width: 98vw;
@@ -34,13 +34,13 @@ body {
     margin: auto;
 }
 .navbar-nav{
-    padding-top: 280px;
+    padding-top: 100px;
     border-spacing: 10px;
 }
 .navbar{
     min-height: 150px;
 }
-/* .navbar-toggler {
+ .navbar-toggler {
     background-color:#1d2124 ;
 } 
 .navbar-nav li:nth-child(1) {
@@ -48,7 +48,7 @@ body {
 }
 .navbar-nav li:nth-child(2) {
   float: left;
-} */
+} 
 .text-box {
     position: absolute;
     top: 70%;
